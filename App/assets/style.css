@@ -1,0 +1,110 @@
+*{
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: fuente1;
+    src: url(fuente/Sunny\ Spells\ Basic.ttf);
+}
+
+html{
+    background-image: url(fondo1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+body {
+    font-family: fuente1;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center; 
+    
+}
+
+h1 {
+    margin-top: 80px;
+    text-align: center;
+    color: #6d6a41;
+}
+
+textarea {
+    margin-top: 40px;
+    width: calc(100% - 40px); 
+    max-width: 600px; 
+    margin: auto; 
+    display: block; 
+    height: 150px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.6);
+    box-sizing: border-box; 
+}
+
+button {
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #00d9ff;
+    color: #3f3434;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button#guardar-nota{
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: #0056b3;
+    color: #f0f0f0;
+}
+
+.nota {
+    width: 75%;
+    margin: 30px auto;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    position: relative;
+    font-size: 25px;
+}
+
+.nota:hover {
+    background-color: #f0f0f0;
+}
+
+.eliminar-nota {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    padding: 5px 10px;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.eliminar-nota:hover {
+    background-color: #c82333;
+}
+
